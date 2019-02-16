@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    
+}
+
+
+.h1 {
+    background: black;
+    float: left;
+
+} 
+
+
+body {
+  background-image: url("pipes/pipes.png");
+}
