@@ -1,16 +1,78 @@
-header {
+#Name {
+    float: left;
     text-align: center;
+    color: white;
+    background-color: teal;
+    padding: 20px;
+    width: 30%;
     
+ }
+ 
+ #AboutMe {
+     font-size: 40px;
+ } 
+
+.picture {
+    clear: both;
+    padding: 50px;
 }
 
+html,body {
+    height: 100%;
+    margin: 0%;
+    background-image: url("pipes/pipes.png");
+}
 
-.h1 {
-    background: black;
-    float: left;
+.wrapper {
+    text-align: center;
+    color: white;
+    min-height: 100%;
+    background-color: gray;     
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+    clear: both;
+}
+ 
+.footer,.push {
+    height: 50px;            
+}
 
-} 
+.contactme { 
+    color: red;
+}
 
+ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    list-style-type: none;
+    float: right;
+    padding-top: 20px;
+}
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111111;
+}
+  
+.active {
+    background-color: teal;
+}
 
-body {
-  background-image: url("pipes/pipes.png");
+p {
+    color: blue;
+
 }
